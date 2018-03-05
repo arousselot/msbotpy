@@ -1,1 +1,1 @@
-web: python main2.py
+web: gunicorn -b '0.0.0.0:'$PORT --log-level INFO main:bot
