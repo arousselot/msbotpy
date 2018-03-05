@@ -30,8 +30,8 @@ class Config:
                 }, 'celery': {
                     'broker_url': None,
                 }, 'flask': {
-                    'host': '0.0.0.0',
-                    'port': '5000',
+                    'host': 'comohellopy.herokuapp.com',
+                    'port': '443',
                     'debug': False,
                 }, 'redis': {
                     'uri': None,
